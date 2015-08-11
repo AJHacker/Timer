@@ -20,6 +20,7 @@
 		5FB931E415D04637007210D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB931C515D04637007210D5 /* Foundation.framework */; };
 		5FB931EC15D04637007210D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FB931EA15D04637007210D5 /* InfoPlist.strings */; };
 		5FB931EF15D04637007210D5 /* TIMERTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB931EE15D04637007210D5 /* TIMERTests.m */; };
+		5FB931FD15D05E07007210D5 /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5FB931FC15D05E07007210D5 /* alarm.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		5FB931EB15D04637007210D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FB931ED15D04637007210D5 /* TIMERTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIMERTests.h; sourceTree = "<group>"; };
 		5FB931EE15D04637007210D5 /* TIMERTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIMERTests.m; sourceTree = "<group>"; };
+		5FB931FC15D05E07007210D5 /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = alarm.wav; path = ../../../../Downloads/alarm.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				5FB931D315D04637007210D5 /* AppDelegate.m */,
 				5FB931D515D04637007210D5 /* MainStoryboard.storyboard */,
 				5FB931D815D04637007210D5 /* ViewController.h */,
+				5FB931FC15D05E07007210D5 /* alarm.wav */,
 				5FB931D915D04637007210D5 /* ViewController.m */,
 				5FB931CA15D04637007210D5 /* Supporting Files */,
 			);
@@ -224,6 +227,7 @@
 			files = (
 				5FB931CE15D04637007210D5 /* InfoPlist.strings in Resources */,
 				5FB931D715D04637007210D5 /* MainStoryboard.storyboard in Resources */,
+				5FB931FD15D05E07007210D5 /* alarm.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
